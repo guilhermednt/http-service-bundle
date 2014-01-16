@@ -1,0 +1,5 @@
+services:
+    http_client_factory:
+        class:  %http_client_factory_class%
+        calls:
+            - [ setConfig, [%http_client_config%]]
