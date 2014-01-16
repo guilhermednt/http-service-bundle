@@ -90,7 +90,7 @@ $container->setParameter('curl.proxy.auth', CURLOPT_PROXYUSERPWD);
 
 ### That's it!
 
-Now you can start using the service named `http_client_factory`. To instantiate a Guzzle\Http\Client you may just do the following:
+Now you can start using the service named `http_client_factory`. To instantiate a `Guzzle\Http\Client` you may just do the following:
 
 ``` php
 <?php
